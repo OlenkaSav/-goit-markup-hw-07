@@ -1,0 +1,31 @@
+.clients {
+  padding-top: 44px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: getColor(clients-icon-color);
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    transition: $transitionBorder;
+  }
+  &__icon {
+    display: flex;
+    fill: getColor(clients-icon-color);
+    transition: $transitionFill;
+  }
+  &__link:hover,
+  &__link:focus,
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    border-color: getColor(accent-color);
+    fill: getColor(accent-color);
+  }
+}

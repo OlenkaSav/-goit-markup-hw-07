@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">        
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
 <body>
     <header class="header">
@@ -62,9 +62,9 @@
 
     
     <!-- Our preferences -->
-    <section class="section preferences__section">
+    <section class="section preferences">
        <div class="container ">
-            <h2 class="section__title section__title--visually-hidden">Наши преимущества</h2>
+            <h2 class="section__title visually-hidden">Наши преимущества</h2>
             <ul class="preferences__list">
                 <li class="preferences__item">
                     <div class="preferences__thumb">
@@ -128,7 +128,7 @@
     </section>
 
     <!-- Our team section -->
-    <section class="section team__section">
+    <section class="section team">
         <div class="container">
             <h2 class="section__title">Наша команда</h2>
             <ul class="team__list">
@@ -229,48 +229,48 @@
     </section>
     </main>
     <!-- Regular clients -->
-    <section class="section clients__section ">
+    <section class="section clients ">
         <div class="container">
             <h2 class="section__title">Постоянные клиенты</h2>
             <ul class="clients__list">
-                <li class="client__item"> 
-                    <a class="client__link" href="">
-                        <svg width="106" height="60" class="client__icon">
+                <li class="clients__item"> 
+                    <a class="clients__link" href="">
+                        <svg width="106" height="60" class="clients__icon">
                             <use href="./images/icons.svg#Logo-one"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="client__item">
-                        <a class="client__link" href="">
-                            <svg width="106" height="60" class="client__icon">
+                <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg width="106" height="60" class="clients__icon">
                                 <use href="./images/icons.svg#Logo-two"></use>
                             </svg>
                         </a>
                 </li>
-                <li class="client__item">
-                        <a class="client__link" href="">
-                            <svg width="106" height="60" class="client__icon">
+                <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg width="106" height="60" class="clients__icon">
                                 <use href="./images/icons.svg#Logo-three"></use>
                             </svg>
                         </a>
                 </li>
-                <li class="client__item">
-                        <a class="client__link" href="">
-                            <svg width="106" height="60" class="client__icon">
+                <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg width="106" height="60" class="clients__icon">
                                 <use href="./images/icons.svg#Logo-four"></use>
                             </svg>
                         </a>
                 </li>
-                <li class="client__item">
-                        <a class="client__link" href="">
-                            <svg width="106" height="60" class="client__icon">
+                <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg width="106" height="60" class="clients__icon">
                                 <use href="./images/icons.svg#Logo-five"></use>
                             </svg>
                         </a>
                 </li>
-                <li class="client__item">
-                        <a class="client__link" href="">
-                            <svg width="106" height="60" class="client__icon">
+                <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg width="106" height="60" class="clients__icon">
                                 <use href="./images/icons.svg#Logo-six"></use>
                             </svg>
                         </a>
@@ -280,7 +280,7 @@
     </section>
 
     <!-- Footer section -->
-    <footer class="footer__section" >
+    <footer class="footer" >
        <div class="container footer__container">
            <div>
                 <a class="logo footer__logo" href="index.html">Web<span class="footer__logo--style">Studio</span></a>
@@ -333,7 +333,7 @@
        </div>
     </footer>
     
-    <div class="backdrop backdrop__is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <form class="modal__form form">
                 <button class="modal__button-close" data-modal-close>
