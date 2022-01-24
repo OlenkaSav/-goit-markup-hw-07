@@ -76,7 +76,7 @@
   }
   &__checkbox:checked + &__checkbox--custom {
     border-color: transparent;
-    background-color: getColor(accent-colour);
+    background-color: getColor(accent-color);
     background-image: url(../images/icon-check.svg);
     background-size: contain;
     background-origin: border-box;

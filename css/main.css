@@ -215,8 +215,8 @@ body {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero-bg.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-bg.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -367,8 +367,8 @@ body {
 }
 
 .team__text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -417,10 +417,6 @@ body {
 .team__link:hover, .team__link:focus {
   background-color: #2196f3;
   color: #ffffff;
-}
-
-.clients {
-  padding-top: 44px;
 }
 
 .clients__list {
@@ -583,26 +579,25 @@ body {
   background-color: rgba(33, 150, 243, 0);
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
 .footer__email::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .footer__email:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .footer__email::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .footer__email::placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .backdrop.is-hidden {
@@ -746,6 +741,7 @@ body {
 
 .form__checkbox:checked + .form__checkbox--custom {
   border-color: transparent;
+  background-color: #2196f3;
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;

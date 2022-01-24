@@ -503,25 +503,24 @@ body {
   background-color: rgba(33, 150, 243, 0);
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
 .footer__email::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .footer__email:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .footer__email::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .footer__email::placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 /*# sourceMappingURL=portfolio.css.map */
