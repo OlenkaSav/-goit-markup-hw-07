@@ -435,9 +435,9 @@ body {
 }
 
 .footer__title {
+  font-style: normal;
   font-weight: bold;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;

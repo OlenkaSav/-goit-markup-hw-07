@@ -40,9 +40,9 @@
     margin-left: 70px;
   }
   &__title {
+    font-style: normal;
     font-weight: bold;
     line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: getColor(text-white-accent-color);
     margin-bottom: 20px;

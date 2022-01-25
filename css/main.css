@@ -379,7 +379,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 16px 32px 30px 32px;
+  margin: 16px 32px 0px 32px;
 }
 
 .team__link {
@@ -511,9 +511,9 @@ body {
 }
 
 .footer__title {
+  font-style: normal;
   font-weight: bold;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
